@@ -28,7 +28,7 @@ public class Controller : MonoBehaviour
             _stone.Spawn();
             m_timer -= m_delay;
         }
-		if (Input.GetKeyUp(KeyCode.Space))
+		/*if (Input.GetKeyUp(KeyCode.Space))
 		{
 			anim._Push();
 			anim._Udar();
@@ -41,10 +41,24 @@ public class Controller : MonoBehaviour
 			anim.Idle();
 			anim.Udar();
 			Debug.Log("Space key was pressed.");
-        }
+        }*/
 		
 
     }
+	public void Up()
+	{
+		anim._Push();
+		anim._Udar();
+		anim._Idle();
+		//Debug.Log("Space key was released.");
+	}
+	public void Down()
+	{
+		anim.push();
+		anim.Idle();
+		anim.Udar();
+		//Debug.Log("Space key was pressed.");
+	}
     public void OnCollisionStone(Collision collision)
 		{
 			if (collision.gameObject.TryGetComponent<Stone>(out var stone))
