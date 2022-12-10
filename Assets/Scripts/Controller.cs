@@ -49,5 +49,25 @@ public class Controller : MonoBehaviour
 				//Physics.IgnoreCollision(contact.thisCollider, contact.otherCollider, true);
 			}
 		}
+
+        private void Start()
+		{
+			StartGame();
+		}
+
+		private void StartGame()
+		{
+			GameEvent.onGameOver += OnGameOver;
+		}
+
+		private void OnGameOver()
+		{
+			GameEvent.onGameOver -= OnGameOver;
+			Debug.Log("Game Over");
+		}
+        private void OnDestroy()
+		{
+			GameEvent.onGameOver -= OnGameOver;
+		}
 }
 }

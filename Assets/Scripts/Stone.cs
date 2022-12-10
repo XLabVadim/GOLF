@@ -29,8 +29,8 @@ namespace Game
 				if (m_isAffect && stone.m_isAffect)
 				{
 					//LOSE
-					//GameEvents.onGameOver?.Invoke();
-					//m_isAffect = false;
+					GameEvent.onGameOver?.Invoke();
+					m_isAffect = false;
 				}
 			}
 		}
