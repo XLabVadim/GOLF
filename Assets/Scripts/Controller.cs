@@ -28,17 +28,28 @@ public class Controller : MonoBehaviour
             _stone.Spawn();
             m_timer -= m_delay;
         }
-        if (Input.GetKey(KeyCode.Space))
+		if (Input.GetKeyUp(KeyCode.Space))
+		{
+			anim._Push();
+			anim._Udar();
+			anim._Idle();
+			Debug.Log("Space key was released.");
+		}
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            anim.Idle();
-        }else anim._Push();
+			anim.push();
+			anim.Idle();
+			anim.Udar();
+			Debug.Log("Space key was pressed.");
+        }
+		
 
     }
     public void OnCollisionStone(Collision collision)
 		{
 			if (collision.gameObject.TryGetComponent<Stone>(out var stone))
 			{
-				//stone.SetAffect(false);
+				stone.SetAffect(false);
 				//var contact = collision.contacts[0];
 				var contact = collision.GetContact(0);
 				var body = contact.otherCollider.GetComponent<Rigidbody>();
@@ -46,7 +57,7 @@ public class Controller : MonoBehaviour
 				{
 					body.AddForce(vec * m_power, ForceMode.Impulse);
 				}
-				//Physics.IgnoreCollision(contact.thisCollider, contact.otherCollider, true);
+				Physics.IgnoreCollision(contact.thisCollider, contact.otherCollider, true);
 			}
 		}
 

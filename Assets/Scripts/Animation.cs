@@ -13,9 +13,25 @@ namespace Game
         {
             anim.SetBool("Idle",true);
         }
+        public void _Idle()
+        {
+            anim.SetBool("Idle",false);
+        }
         public void _Push()
         {
-            anim.SetBool("Idle", false);
+            anim.SetBool("Zamah", false);
+        }
+        public void push()
+        {
+            anim.SetBool("Zamah", true);
+        }
+        public void _Udar()
+        {
+            anim.SetBool("Udar", true);
+        }
+        public void Udar()
+        {
+            anim.SetBool("Udar", false);
         }
     }
 }
