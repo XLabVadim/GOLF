@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Game
 {
@@ -19,6 +20,8 @@ public class Controller : MonoBehaviour
 	private float m_delay = 1f;
 	[SerializeField] private float m_power = 100f;
     Vector3 vec = new Vector3(-10,10,1);
+	public int Score = 0;
+	public Text Scoretext;
 
     void Update()
     {
@@ -42,8 +45,7 @@ public class Controller : MonoBehaviour
 			anim.Udar();
 			Debug.Log("Space key was pressed.");
         }*/
-		
-
+		Scoretext.text = Score.ToString();
     }
 	public void Up()
 	{
@@ -72,6 +74,7 @@ public class Controller : MonoBehaviour
 					body.AddForce(vec * m_power, ForceMode.Impulse);
 				}
 				Physics.IgnoreCollision(contact.thisCollider, contact.otherCollider, true);
+				Score += 1;
 			}
 		}
 
