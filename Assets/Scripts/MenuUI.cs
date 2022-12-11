@@ -8,11 +8,12 @@ public class MenuUI : MonoBehaviour
 {
     public GameObject menu;
     public GameObject menuPlayer;
-    public bool isMenu = false;
     public bool ExitMenu = false;
     private Camera cameraMenu;
     [SerializeField]
     Camera cameraPlayer;
+    [SerializeField]
+    Controller cont;
 
     private void Start()
     {
@@ -25,19 +26,12 @@ public class MenuUI : MonoBehaviour
 
     public void ActiveMenu()
     {
-        if (isMenu)
-        {
-            menu.SetActive(true);
-            menuPlayer.SetActive(false);
-        }
-        else
-        {
-            cameraMenu.enabled = !cameraMenu.enabled;
-            cameraPlayer.enabled = !cameraPlayer.enabled;
-            menu.SetActive(false);
-            menuPlayer.SetActive(true);
-            ExitMenu = true;
-        }
+        cont.Score = 0;
+        cameraMenu.enabled = !cameraMenu.enabled;
+        cameraPlayer.enabled = !cameraPlayer.enabled;
+        menu.SetActive(false);
+        menuPlayer.SetActive(true);
+        ExitMenu = true;
     }
     public void DownMenu()
     {
