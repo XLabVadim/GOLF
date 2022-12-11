@@ -22,29 +22,22 @@ public class Controller : MonoBehaviour
     Vector3 vec = new Vector3(-10,10,1);
 	public int Score = 0;
 	public Text Scoretext;
+	[SerializeField]
+	private MenuUI StartPlay;
 
     void Update()
     {
-        m_timer += Time.deltaTime;
-        if (m_timer >= m_delay)
+		//Debug.Log(StartPlay.ExitMenu);
+		if (StartPlay.ExitMenu == true)
+		{
+			m_timer += Time.deltaTime;
+		}
+        if (m_timer >= m_delay && StartPlay.ExitMenu == true)
         {
             _stone.Spawn();
             m_timer -= m_delay;
         }
-		/*if (Input.GetKeyUp(KeyCode.Space))
-		{
-			anim._Push();
-			anim._Udar();
-			anim._Idle();
-			Debug.Log("Space key was released.");
-		}
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-			anim.push();
-			anim.Idle();
-			anim.Udar();
-			Debug.Log("Space key was pressed.");
-        }*/
+		
 		Scoretext.text = Score.ToString();
     }
 	public void Up()
@@ -92,6 +85,8 @@ public class Controller : MonoBehaviour
 		{
 			GameEvent.onGameOver -= OnGameOver;
 			Debug.Log("Game Over");
+			StartPlay.ExitMenu = false;
+			StartPlay.DownMenu();
 		}
         private void OnDestroy()
 		{

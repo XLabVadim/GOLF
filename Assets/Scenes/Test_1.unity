@@ -711,6 +711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menu: {fileID: 1471152810}
   menuPlayer: {fileID: 249239503}
+  isMenu: 0
   cameraPlayer: {fileID: 1291073922}
 --- !u!4 &88184054
 Transform:
@@ -8232,6 +8233,7 @@ MonoBehaviour:
   m_power: 2
   Score: 0
   Scoretext: {fileID: 2100252136}
+  StartPlay: {fileID: 88184053}
 --- !u!4 &1077141778
 Transform:
   m_ObjectHideFlags: 0
