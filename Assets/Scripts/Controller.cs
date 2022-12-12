@@ -49,19 +49,15 @@ namespace Game
 
         public void Up()
         {
-              anim.push();
+            anim.push();
             anim.Udar();
-            //anim._Idle();
-            //Debug.Log("Space key was released.");
         }
 
         public void Down()
         {
             anim._Push();
             anim._Udar(); 
-            
             anim.Idle();
-            //Debug.Log("Space key was pressed.");
         }
 
         public void OnCollisionStone(Collision collision)
@@ -86,7 +82,7 @@ namespace Game
             StartGame();
         }
 
-        private void StartGame()
+        public void StartGame()
         {
             GameEvent.onGameOver += OnGameOver;
         }
