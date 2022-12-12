@@ -49,17 +49,18 @@ namespace Game
 
         public void Up()
         {
-            anim._Push();
-            anim._Udar();
-            anim._Idle();
+              anim.push();
+            anim.Udar();
+            //anim._Idle();
             //Debug.Log("Space key was released.");
         }
 
         public void Down()
         {
-            anim.push();
+            anim._Push();
+            anim._Udar(); 
+            
             anim.Idle();
-            anim.Udar();
             //Debug.Log("Space key was pressed.");
         }
 
