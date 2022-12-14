@@ -31,6 +31,8 @@ namespace Game
         [SerializeField]
         private MenuUI StartPlay;
 
+        private List<GameObject> m_stones = new();
+
         void Update()
         {
             //Debug.Log(StartPlay.ExitMenu);
@@ -40,7 +42,8 @@ namespace Game
             }
             if (m_timer >= m_delay && StartPlay.ExitMenu == true)
             {
-                _stone.Spawn();
+                var u_stone = _stone.Spawn();
+                m_stones.Add(u_stone);
                 m_timer -= m_delay;
             }
 
@@ -74,6 +77,15 @@ namespace Game
                 Score += 1;
             }
         }
+        private void ClearStones()
+		{
+            Debug.Log("gggggg");
+			foreach (GameObject u_stone in m_stones)
+			{
+				Destroy(u_stone);
+			}
+			m_stones.Clear();
+		}
 
         private void Start()
         {
@@ -87,10 +99,12 @@ namespace Game
 
         private void OnGameOver()
         {
+
             GameEvent.onGameOver -= OnGameOver;
             Debug.Log("Game Over");
             StartPlay.ExitMenu = false;
             StartPlay.DownMenu();
+            ClearStones();
         }
 
         private void OnDestroy()

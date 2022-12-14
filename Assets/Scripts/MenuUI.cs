@@ -37,6 +37,7 @@ public class MenuUI : MonoBehaviour
     public void DownMenu()
     {
         cont.StartGame();
+
         cameraMenu.enabled = !cameraMenu.enabled;
         cameraPlayer.enabled = !cameraPlayer.enabled;
         menu.SetActive(true);

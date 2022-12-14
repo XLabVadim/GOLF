@@ -7,11 +7,12 @@ namespace Game
 public class StoneSpawn : MonoBehaviour
 {
     public GameObject _stone;
-    public void Spawn()
+    public GameObject Spawn()
     {
         var position = transform.position;
         var rotation = transform.rotation;
-        GameObject.Instantiate(_stone, position, rotation);
+        
+        return GameObject.Instantiate(_stone, position, rotation);
     }
     
 }
