@@ -67,11 +67,9 @@ namespace Game
                 stone.SetAffect(false);
                 //var contact = collision.contacts[0];
                 var contact = collision.GetContact(0);
+                var stick = contact.thisCollider.GetComponent<CollisionPlow>();
                 var body = contact.otherCollider.GetComponent<Rigidbody>();
-                if (contact.normal != null)
-                {
-                    body.AddForce(vec * m_power, ForceMode.Impulse);
-                }
+                body.AddForce(stick.dir * m_power, ForceMode.Impulse);
                 Physics.IgnoreCollision(contact.thisCollider, contact.otherCollider, true);
                 Score += 1;
             }
