@@ -16,7 +16,6 @@ namespace Game
         [SerializeField]
         private Animation anim;
         private float m_timer = 0f;
-        
 
         [SerializeField]
         private float m_power = 100f;
@@ -102,7 +101,6 @@ namespace Game
 
         private void OnGameOver()
         {
-
             GameEvent.onGameOver -= OnGameOver;
             Debug.Log("Game Over");
             StartPlay.ExitMenu = false;

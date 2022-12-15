@@ -6,6 +6,8 @@ namespace Game
 {
 public class MenuUI : MonoBehaviour
 {
+    [SerializeField]
+    private Dragon dragon;
     public GameObject menu;
     public GameObject menuPlayer;
     public bool ExitMenu = false;
@@ -40,6 +42,7 @@ public class MenuUI : MonoBehaviour
         Step = mui_settings.stepDealay;
         m_maxDelay = mui_settings.maxDelay;
         cont.Score = 0;
+        dragon.HP = 100;
         cameraMenu.enabled = !cameraMenu.enabled;
         cameraPlayer.enabled = !cameraPlayer.enabled;
         menu.SetActive(false);
