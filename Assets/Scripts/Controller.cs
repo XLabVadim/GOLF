@@ -43,7 +43,11 @@ namespace Game
                 m_timer -= StartPlay.m_delay;
 
                 StartPlay.m_delay = StartPlay.Calc();
-                StartPlay.m_maxDelay -= StartPlay.Step;
+                while (StartPlay.m_maxDelay > StartPlay.m_minDela)
+                {
+                    StartPlay.m_maxDelay -= StartPlay.Step;
+                    break;
+                }
             }
 
             Scoretext.text = Score.ToString();
@@ -78,7 +82,7 @@ namespace Game
         }
         private void ClearStones()
 		{
-            Debug.Log("gggggg");
+            //Debug.Log("gggggg");
 			foreach (GameObject u_stone in m_stones)
 			{
 				Destroy(u_stone);

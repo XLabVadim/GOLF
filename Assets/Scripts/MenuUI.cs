@@ -18,6 +18,7 @@ public class MenuUI : MonoBehaviour
     private GameSettings mui_settings;
     public float m_maxDelay = 0f;
     public float m_delay = 0f;
+    public float m_minDela = 0f;
     public float Step = 0f;
     private void Start()
     {
@@ -34,6 +35,7 @@ public class MenuUI : MonoBehaviour
 
     public void ActiveMenu()
     {
+        m_minDela = mui_settings.minDelay;
         m_delay = Calc();
         Step = mui_settings.stepDealay;
         m_maxDelay = mui_settings.maxDelay;
