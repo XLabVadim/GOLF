@@ -16,11 +16,7 @@ namespace Game
         [SerializeField]
         private Animation anim;
         private float m_timer = 0f;
-        private bool m_Idle;
-        private bool b_Push;
-
-        [SerializeField]
-        private float m_delay = 1f;
+        
 
         [SerializeField]
         private float m_power = 100f;
@@ -40,11 +36,14 @@ namespace Game
             {
                 m_timer += Time.deltaTime;
             }
-            if (m_timer >= m_delay && StartPlay.ExitMenu == true)
+            if (m_timer >= StartPlay.m_delay && StartPlay.ExitMenu == true)
             {
                 var u_stone = _stone.Spawn();
                 m_stones.Add(u_stone);
-                m_timer -= m_delay;
+                m_timer -= StartPlay.m_delay;
+
+                StartPlay.m_delay = StartPlay.Calc();
+                StartPlay.m_maxDelay -= StartPlay.Step;
             }
 
             Scoretext.text = Score.ToString();

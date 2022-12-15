@@ -694,7 +694,6 @@ GameObject:
   m_Component:
   - component: {fileID: 88184054}
   - component: {fileID: 88184053}
-  - component: {fileID: 88184055}
   m_Layer: 0
   m_Name: MenuManager
   m_TagString: Untagged
@@ -719,6 +718,10 @@ MonoBehaviour:
   ExitMenu: 0
   cameraPlayer: {fileID: 1291073922}
   cont: {fileID: 1077141777}
+  mui_settings: {fileID: 11400000, guid: 2c2dfd425b42a4a458f4486166847538, type: 2}
+  m_maxDelay: 0
+  m_delay: 0
+  Step: 0
 --- !u!4 &88184054
 Transform:
   m_ObjectHideFlags: 0
@@ -734,18 +737,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &88184055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 88184052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 391962dacf1a2534a82cdbb26abcd04a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &90387532
 GameObject:
   m_ObjectHideFlags: 0
@@ -8460,7 +8451,6 @@ MonoBehaviour:
   _stone: {fileID: 576144911}
   stone: {fileID: 0}
   anim: {fileID: 1724856147}
-  m_delay: 2
   m_power: 50
   Score: 0
   Scoretext: {fileID: 666001412}

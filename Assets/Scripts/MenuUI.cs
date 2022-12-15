@@ -14,7 +14,11 @@ public class MenuUI : MonoBehaviour
     Camera cameraPlayer;
     [SerializeField]
     Controller cont;
-
+    [SerializeField]
+    private GameSettings mui_settings;
+    public float m_maxDelay = 0f;
+    public float m_delay = 0f;
+    public float Step = 0f;
     private void Start()
     {
         menu.SetActive(true);
@@ -23,10 +27,16 @@ public class MenuUI : MonoBehaviour
         cameraMenu = Camera.main;
     }
 
+    public float Calc()
+    {
+        return Random.Range(mui_settings.minDelay, m_maxDelay);
+    }
 
     public void ActiveMenu()
     {
-        
+        m_delay = Calc();
+        Step = mui_settings.stepDealay;
+        m_maxDelay = mui_settings.maxDelay;
         cont.Score = 0;
         cameraMenu.enabled = !cameraMenu.enabled;
         cameraPlayer.enabled = !cameraPlayer.enabled;
@@ -37,7 +47,7 @@ public class MenuUI : MonoBehaviour
     public void DownMenu()
     {
         cont.StartGame();
-
+        
         cameraMenu.enabled = !cameraMenu.enabled;
         cameraPlayer.enabled = !cameraPlayer.enabled;
         menu.SetActive(true);
