@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4421302, g: 0.49113148, b: 0.57104164, a: 1}
+  m_IndirectSpecularColor: {r: 0.44331577, g: 0.49235332, b: 0.5717749, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 88da2f5753898904488e8193fb937ceb, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -133,6 +133,10 @@ PrefabInstance:
     - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01b (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4702229198241056, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_RootOrder
@@ -214,7 +218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2916151948399678901, guid: 0577306f947ebac4486c16bda41798b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.072
       objectReference: {fileID: 0}
     - target: {fileID: 2916151948399678901, guid: 0577306f947ebac4486c16bda41798b1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -262,6 +266,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1838849056880800, guid: 08b7d3dcb8d6b9247b1800cd79905e16, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4632176470643508, guid: 08b7d3dcb8d6b9247b1800cd79905e16, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -316,6 +324,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -418,6 +430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_mountain_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1185380165875998, guid: 9d200fbd47e9c7f45ad54450ebd25b94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4099890921740684, guid: 9d200fbd47e9c7f45ad54450ebd25b94, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -517,6 +533,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_sack_open_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1718839437809988, guid: 5fb4dbc1b7c07b9418845eb61970d9df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4524486647388044, guid: 5fb4dbc1b7c07b9418845eb61970d9df, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -583,6 +603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_tree_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1612273161005096, guid: ae9772ea62bbc724eb9b8ef81109f733, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4586821900076392, guid: ae9772ea62bbc724eb9b8ef81109f733, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -645,6 +669,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1291687869}
     m_Modifications:
+    - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4252784401376168, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -721,6 +749,7 @@ MonoBehaviour:
   mui_settings: {fileID: 11400000, guid: 2c2dfd425b42a4a458f4486166847538, type: 2}
   m_maxDelay: 0
   m_delay: 0
+  m_minDela: 0
   Step: 0
 --- !u!4 &88184054
 Transform:
@@ -735,7 +764,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &90387532
 GameObject:
@@ -768,12 +797,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1050839960}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -16, y: -75}
-  m_SizeDelta: {x: 751.878, y: 105.802}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 179.64, y: -103}
+  m_SizeDelta: {x: 308.0128, y: 167.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &90387534
 MonoBehaviour:
@@ -827,6 +856,10 @@ PrefabInstance:
     - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_path_01b (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4947743726954784, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_RootOrder
@@ -890,6 +923,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01a (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4607489187838822, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -951,6 +988,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -1014,6 +1055,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1366878522736558, guid: 87d1d734739f10440b2bdbb449c09a9e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4996371086125650, guid: 87d1d734739f10440b2bdbb449c09a9e, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -1076,6 +1121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_tree_pine_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4252784401376168, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1129,6 +1178,10 @@ PrefabInstance:
     - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01a (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4607489187838822, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_RootOrder
@@ -1191,6 +1244,10 @@ PrefabInstance:
     - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_path_01b (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4947743726954784, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_RootOrder
@@ -1262,6 +1319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -1328,6 +1389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -1390,6 +1455,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767446352}
     m_Modifications:
+    - target: {fileID: 1076262714343606, guid: 68cbfa1438162b243ac02fb9e3e30581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4802134562677756, guid: 68cbfa1438162b243ac02fb9e3e30581, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1452,6 +1521,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1361181076786324, guid: 388d2ede35ec91345943f17a010818fc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4103606975893948, guid: 388d2ede35ec91345943f17a010818fc, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1501,6 +1574,10 @@ PrefabInstance:
     - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01a (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4607489187838822, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_RootOrder
@@ -1557,6 +1634,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4607489187838822, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
   m_PrefabInstance: {fileID: 186098882}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &197007236
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1445595358355702730, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445595358355702730, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445595358355702730, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445595358355702730, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 64.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445595358355702730, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.43442482
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445595358355702730, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445595358355702730, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.90070814
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445595358355702730, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445595358355702730, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445595358355702730, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -128.503
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445595358355702730, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2252954288631224688, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
+      propertyPath: m_Name
+      value: Jazz Dancing
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823326086316366256, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d11a91977e8272446ab8b0500dce2076, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6c56ba80f6773f249afd7b8950b5d737, type: 3}
 --- !u!1 &203980639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1740,6 +1878,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -1806,6 +1948,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_sand_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1385124323689208, guid: e7489574cca6d4645a7019414b8288e8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4943765590059028, guid: e7489574cca6d4645a7019414b8288e8, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -1859,6 +2005,10 @@ PrefabInstance:
     - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_tree_pine_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4252784401376168, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_RootOrder
@@ -1917,6 +2067,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -1980,6 +2134,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2093542906}
     m_Modifications:
+    - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4607489187838822, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2041,6 +2199,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -2191,13 +2353,70 @@ RectTransform:
   m_Children:
   - {fileID: 203980640}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 100.255, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &261076930
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5841471276873857936, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_Name
+      value: Snake Hip Hop Dance Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 58.606
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.88713
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 55.053
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.85988826
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5104824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 298.608
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
 --- !u!1001 &269828714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2208,6 +2427,10 @@ PrefabInstance:
     - target: {fileID: 1143931805411576, guid: f71e980e020ab924ebed9a227a648ec8, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_flower_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143931805411576, guid: f71e980e020ab924ebed9a227a648ec8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4743383860406902, guid: f71e980e020ab924ebed9a227a648ec8, type: 3}
       propertyPath: m_RootOrder
@@ -2275,6 +2498,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4631977158232566, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -2328,6 +2555,10 @@ PrefabInstance:
     - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01a (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4208458315195486, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -2387,6 +2618,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1205289291}
     m_Modifications:
+    - target: {fileID: 1157028143247034, guid: 5286e490afadac545ae3a1595b1e96e1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4418469335166708, guid: 5286e490afadac545ae3a1595b1e96e1, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2448,6 +2683,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -2577,6 +2816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01a (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4607489187838822, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -2639,6 +2882,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1357363405357342, guid: d354bbf6d0a7bc543b86d5b1337c7933, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4796670359222672, guid: d354bbf6d0a7bc543b86d5b1337c7933, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -2698,6 +2945,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1703863884}
     m_Modifications:
+    - target: {fileID: 1553163231892768, guid: 0fd5be61d8c00de419d45d6bf745a69c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4517740199119114, guid: 0fd5be61d8c00de419d45d6bf745a69c, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2760,6 +3011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_sand_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1385124323689208, guid: e7489574cca6d4645a7019414b8288e8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4943765590059028, guid: e7489574cca6d4645a7019414b8288e8, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -2809,6 +3064,10 @@ PrefabInstance:
     - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01a (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4208458315195486, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -2879,6 +3138,10 @@ PrefabInstance:
     - target: {fileID: 1855710351377478, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855710351377478, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4557757265253404, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
       propertyPath: m_RootOrder
@@ -3004,6 +3267,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01a (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4607489187838822, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -3066,6 +3333,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1703863884}
     m_Modifications:
+    - target: {fileID: 1187590036259114, guid: e1154cf6ac27b2f45b4ae35582e7e363, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4383882971595202, guid: e1154cf6ac27b2f45b4ae35582e7e363, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3084,7 +3355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4383882971595202, guid: e1154cf6ac27b2f45b4ae35582e7e363, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.83
+      value: 21.768
       objectReference: {fileID: 0}
     - target: {fileID: 4383882971595202, guid: e1154cf6ac27b2f45b4ae35582e7e363, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3124,6 +3395,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1569744805326958, guid: af46e0e24402dfa49aea336191bc47ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4237626469908324, guid: af46e0e24402dfa49aea336191bc47ab, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -3252,6 +3527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01a (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4208458315195486, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -3313,6 +3592,10 @@ PrefabInstance:
     - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01b (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4702229198241056, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_RootOrder
@@ -3380,6 +3663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_02 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4631977158232566, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -3442,6 +3729,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1205289291}
     m_Modifications:
+    - target: {fileID: 1143931805411576, guid: f71e980e020ab924ebed9a227a648ec8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4743383860406902, guid: f71e980e020ab924ebed9a227a648ec8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3504,6 +3795,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1974105250760466, guid: bbb972e8372282f4093c9484693385fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4201503581178414, guid: bbb972e8372282f4093c9484693385fd, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -3565,6 +3860,10 @@ PrefabInstance:
     - target: {fileID: 1733909988577898, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01b (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733909988577898, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4931211907768612, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
       propertyPath: m_RootOrder
@@ -3632,6 +3931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01b (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1733909988577898, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4931211907768612, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -3698,6 +4001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_ladder_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1438797800468804, guid: 7087784e228be8745af45599a5130532, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4891787282750124, guid: 7087784e228be8745af45599a5130532, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -3751,6 +4058,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -3818,6 +4129,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01a (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4208458315195486, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -3871,6 +4186,10 @@ PrefabInstance:
     - target: {fileID: 1855710351377478, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855710351377478, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4557757265253404, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
       propertyPath: m_RootOrder
@@ -3933,6 +4252,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -4024,8 +4347,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -176, y: -28.5656}
-  m_SizeDelta: {x: 194.07, y: 57.8732}
+  m_AnchoredPosition: {x: -176, y: -28.751}
+  m_SizeDelta: {x: 194.07, y: 57.502}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &488798054
 MonoBehaviour:
@@ -4080,6 +4403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_building_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1275909538635612, guid: 2767c12992d890f44b14f433fe854668, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4422725698349158, guid: 2767c12992d890f44b14f433fe854668, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -4130,6 +4457,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1649361158825916, guid: 4500da6a464da55408dd1ff2324163a7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4792142742180158, guid: 4500da6a464da55408dd1ff2324163a7, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -4214,6 +4545,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -4328,6 +4663,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4675105466496168, guid: 6fdeb1faa1b42904e9210dd047b256ba, type: 3}
   m_PrefabInstance: {fileID: 518986370}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &533375192
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2363096064411247531, guid: 13bb03a58df5aa94a9dd97598efed8e4, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363096064411247531, guid: 13bb03a58df5aa94a9dd97598efed8e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 85.066
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363096064411247531, guid: 13bb03a58df5aa94a9dd97598efed8e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.261
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363096064411247531, guid: 13bb03a58df5aa94a9dd97598efed8e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 64.321
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363096064411247531, guid: 13bb03a58df5aa94a9dd97598efed8e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.54779047
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363096064411247531, guid: 13bb03a58df5aa94a9dd97598efed8e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363096064411247531, guid: 13bb03a58df5aa94a9dd97598efed8e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8366155
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363096064411247531, guid: 13bb03a58df5aa94a9dd97598efed8e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363096064411247531, guid: 13bb03a58df5aa94a9dd97598efed8e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363096064411247531, guid: 13bb03a58df5aa94a9dd97598efed8e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 113.569
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363096064411247531, guid: 13bb03a58df5aa94a9dd97598efed8e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134707604281587985, guid: 13bb03a58df5aa94a9dd97598efed8e4, type: 3}
+      propertyPath: m_Name
+      value: Chicken Dance
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 13bb03a58df5aa94a9dd97598efed8e4, type: 3}
 --- !u!1001 &552265441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4338,6 +4730,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -4424,7 +4820,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 8.222, z: 0}
 --- !u!114 &576144911
 MonoBehaviour:
@@ -4449,6 +4845,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -4515,6 +4915,10 @@ PrefabInstance:
     - target: {fileID: 1855710351377478, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855710351377478, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4557757265253404, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
       propertyPath: m_RootOrder
@@ -4632,6 +5036,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1703863884}
     m_Modifications:
+    - target: {fileID: 1689892608009186, guid: 6fc2010b5899cfd488a0ddf205679e2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4548539680920072, guid: 6fc2010b5899cfd488a0ddf205679e2b, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -4765,6 +5173,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01a (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4208458315195486, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -4818,6 +5230,10 @@ PrefabInstance:
     - target: {fileID: 1612273161005096, guid: ae9772ea62bbc724eb9b8ef81109f733, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_tree_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1612273161005096, guid: ae9772ea62bbc724eb9b8ef81109f733, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4586821900076392, guid: ae9772ea62bbc724eb9b8ef81109f733, type: 3}
       propertyPath: m_RootOrder
@@ -4889,6 +5305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_chair_01a (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569744805326958, guid: af46e0e24402dfa49aea336191bc47ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4237626469908324, guid: af46e0e24402dfa49aea336191bc47ab, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -4950,6 +5370,10 @@ PrefabInstance:
     - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01b (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4702229198241056, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_RootOrder
@@ -5017,6 +5441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01b (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1733909988577898, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4931211907768612, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -5083,6 +5511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01a (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4208458315195486, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -5133,6 +5565,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830574651}
     m_Modifications:
+    - target: {fileID: 1640908652775104, guid: cd87e5026d1695148aabe96121c526ef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4003897846794392, guid: cd87e5026d1695148aabe96121c526ef, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -5183,6 +5619,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 766042417}
     m_Modifications:
+    - target: {fileID: 1235107498267470, guid: efd8147160aa6c64c8121a2ed788744e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4019303215891802, guid: efd8147160aa6c64c8121a2ed788744e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -5236,6 +5676,10 @@ PrefabInstance:
     - target: {fileID: 1458573784885960, guid: 6910e2407cd484a42a0c2598114751a0, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_tree_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458573784885960, guid: 6910e2407cd484a42a0c2598114751a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4202130902894980, guid: 6910e2407cd484a42a0c2598114751a0, type: 3}
       propertyPath: m_RootOrder
@@ -5291,6 +5735,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1291687869}
     m_Modifications:
+    - target: {fileID: 1612273161005096, guid: ae9772ea62bbc724eb9b8ef81109f733, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4586821900076392, guid: ae9772ea62bbc724eb9b8ef81109f733, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5344,6 +5792,10 @@ PrefabInstance:
     - target: {fileID: 1855710351377478, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855710351377478, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4557757265253404, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
       propertyPath: m_RootOrder
@@ -5402,6 +5854,10 @@ PrefabInstance:
     - target: {fileID: 1689892608009186, guid: 6fc2010b5899cfd488a0ddf205679e2b, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_rock_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689892608009186, guid: 6fc2010b5899cfd488a0ddf205679e2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4548539680920072, guid: 6fc2010b5899cfd488a0ddf205679e2b, type: 3}
       propertyPath: m_RootOrder
@@ -5572,12 +6028,12 @@ RectTransform:
   m_Children:
   - {fileID: 488798053}
   m_Father: {fileID: 1050839960}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -94.660645, y: -100.895996}
-  m_SizeDelta: {x: 104.25348, y: 66.742004}
+  m_AnchoredPosition: {x: -89.6586, y: -97.711}
+  m_SizeDelta: {x: 94.2493, y: 60.373}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &666001412
 MonoBehaviour:
@@ -5631,6 +6087,10 @@ PrefabInstance:
     - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_path_01b (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4947743726954784, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_RootOrder
@@ -5707,6 +6167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -5778,6 +6242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_path_01a (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1329638177129074, guid: a25996a7d0674de40a8273b54b50aa7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4508691648621678, guid: a25996a7d0674de40a8273b54b50aa7b, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -5844,6 +6312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -5862,7 +6334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 56.19119
+      value: 56.19
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5870,7 +6342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 43.308014
+      value: 43.31
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5909,6 +6381,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -5976,6 +6452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -6038,6 +6518,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1833936599012662, guid: 7f3b1263233678a4a92861d908051fe3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4966303650379956, guid: 7f3b1263233678a4a92861d908051fe3, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6091,6 +6575,10 @@ PrefabInstance:
     - target: {fileID: 1076262714343606, guid: 68cbfa1438162b243ac02fb9e3e30581, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076262714343606, guid: 68cbfa1438162b243ac02fb9e3e30581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4802134562677756, guid: 68cbfa1438162b243ac02fb9e3e30581, type: 3}
       propertyPath: m_RootOrder
@@ -6191,6 +6679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4631977158232566, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -6252,6 +6744,10 @@ PrefabInstance:
     - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01a (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4607489187838822, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_RootOrder
@@ -6318,6 +6814,10 @@ PrefabInstance:
     - target: {fileID: 1855710351377478, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1855710351377478, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4557757265253404, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
       propertyPath: m_RootOrder
@@ -6465,6 +6965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -6530,6 +7034,10 @@ PrefabInstance:
     - target: {fileID: 1269754475505960, guid: 186ecc7a1f977cc4fab5658c00fa3c4d, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_flower_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1269754475505960, guid: 186ecc7a1f977cc4fab5658c00fa3c4d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4063210846265680, guid: 186ecc7a1f977cc4fab5658c00fa3c4d, type: 3}
       propertyPath: m_RootOrder
@@ -6597,6 +7105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01b (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4702229198241056, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -6662,6 +7174,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -6729,6 +7245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -6794,6 +7314,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -6878,7 +7402,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.97794116, g: 0.96583366, b: 0.8269355, a: 1}
+  m_Color: {r: 1, g: 0.8066038, b: 0.94954437, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -6936,14 +7460,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 867313192}
-  m_LocalRotation: {x: -0.5011878, y: 0.2212526, z: -0.13429286, w: -0.8257261}
+  m_LocalRotation: {x: -0.42361933, y: 0.23260076, z: -0.11350848, w: -0.868078}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: -297.487, y: -30, z: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -307.976, y: -30, z: 0}
 --- !u!1 &867978179
 GameObject:
   m_ObjectHideFlags: 0
@@ -7001,6 +7525,10 @@ PrefabInstance:
     - target: {fileID: 1187590036259114, guid: e1154cf6ac27b2f45b4ae35582e7e363, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_rocks_tiny_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1187590036259114, guid: e1154cf6ac27b2f45b4ae35582e7e363, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4383882971595202, guid: e1154cf6ac27b2f45b4ae35582e7e363, type: 3}
       propertyPath: m_RootOrder
@@ -7060,6 +7588,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1460466803834280, guid: 94003cdd02bfa0849b07108d63f10e24, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4415611076490568, guid: 94003cdd02bfa0849b07108d63f10e24, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -7118,6 +7650,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1438797800468804, guid: 7087784e228be8745af45599a5130532, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4891787282750124, guid: 7087784e228be8745af45599a5130532, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -7171,6 +7707,10 @@ PrefabInstance:
     - target: {fileID: 1357363405357342, guid: d354bbf6d0a7bc543b86d5b1337c7933, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_bathtub_wood_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1357363405357342, guid: d354bbf6d0a7bc543b86d5b1337c7933, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4796670359222672, guid: d354bbf6d0a7bc543b86d5b1337c7933, type: 3}
       propertyPath: m_RootOrder
@@ -7229,6 +7769,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -7306,6 +7850,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1075210506956534, guid: c20b40242fb425a48840e03f7f3a50f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4544135072102818, guid: c20b40242fb425a48840e03f7f3a50f4, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -7364,6 +7912,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1205289291}
     m_Modifications:
+    - target: {fileID: 1269754475505960, guid: 186ecc7a1f977cc4fab5658c00fa3c4d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4063210846265680, guid: 186ecc7a1f977cc4fab5658c00fa3c4d, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -7492,6 +8044,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1291687869}
     m_Modifications:
+    - target: {fileID: 1458573784885960, guid: 6910e2407cd484a42a0c2598114751a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4202130902894980, guid: 6910e2407cd484a42a0c2598114751a0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7541,6 +8097,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -7604,6 +8164,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1703863884}
     m_Modifications:
+    - target: {fileID: 1019362320417226, guid: 9f21020355643c74c88002634abcdabd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4303765770703250, guid: 9f21020355643c74c88002634abcdabd, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7653,6 +8217,10 @@ PrefabInstance:
     - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_tree_pine_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4252784401376168, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_RootOrder
@@ -7712,6 +8280,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_mountain_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1185380165875998, guid: 9d200fbd47e9c7f45ad54450ebd25b94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4099890921740684, guid: 9d200fbd47e9c7f45ad54450ebd25b94, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -7767,6 +8339,82 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4099890921740684, guid: 9d200fbd47e9c7f45ad54450ebd25b94, type: 3}
   m_PrefabInstance: {fileID: 1002130129}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1003647858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1003647859}
+  - component: {fileID: 1003647861}
+  - component: {fileID: 1003647860}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1003647859
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003647858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1050839960}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 179.64, y: -103}
+  m_SizeDelta: {x: 308.01, y: 185.5197}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1003647860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003647858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 1, b: 0.8793845, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 0.2
+--- !u!222 &1003647861
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003647858}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1022963112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7848,6 +8496,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -7910,6 +8562,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1266262423161834, guid: f274f0fb5e5bc294ca9a0ff4cf1f0ff7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4682952893640444, guid: f274f0fb5e5bc294ca9a0ff4cf1f0ff7, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -8052,6 +8708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -8150,7 +8810,7 @@ Transform:
   - {fileID: 1391116800}
   - {fileID: 2107170708}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1045032437
 PrefabInstance:
@@ -8162,6 +8822,10 @@ PrefabInstance:
     - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_path_01b (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4947743726954784, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_RootOrder
@@ -8314,10 +8978,12 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1003647859}
   - {fileID: 90387533}
+  - {fileID: 2066708427}
   - {fileID: 666001411}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8364,6 +9030,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1205289291}
     m_Modifications:
+    - target: {fileID: 1269754475505960, guid: 186ecc7a1f977cc4fab5658c00fa3c4d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4063210846265680, guid: 186ecc7a1f977cc4fab5658c00fa3c4d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -8468,7 +9138,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1092291190
 PrefabInstance:
@@ -8480,6 +9150,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -8546,6 +9220,10 @@ PrefabInstance:
     - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_path_01b (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4947743726954784, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_RootOrder
@@ -8618,6 +9296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_chair_01b (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1944616840669060, guid: 7a77ea810bbc0db4992e500affe32dbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4538304254603464, guid: 7a77ea810bbc0db4992e500affe32dbf, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -8676,6 +9358,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1085883031562116, guid: 957bb31991bce1640a18d0a109c71f3d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4093639486830472, guid: 957bb31991bce1640a18d0a109c71f3d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -8745,6 +9431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_mountain_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1185380165875998, guid: 9d200fbd47e9c7f45ad54450ebd25b94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4099890921740684, guid: 9d200fbd47e9c7f45ad54450ebd25b94, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -8810,6 +9500,10 @@ PrefabInstance:
     - target: {fileID: 1019362320417226, guid: 9f21020355643c74c88002634abcdabd, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_rock_small_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1019362320417226, guid: 9f21020355643c74c88002634abcdabd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4303765770703250, guid: 9f21020355643c74c88002634abcdabd, type: 3}
       propertyPath: m_RootOrder
@@ -8954,6 +9648,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830574651}
     m_Modifications:
+    - target: {fileID: 1121113006719782, guid: 386f40ad68cdd3c4fbcb471ef2d93772, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4519282631701236, guid: 386f40ad68cdd3c4fbcb471ef2d93772, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -9004,6 +9702,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1944616840669060, guid: 7a77ea810bbc0db4992e500affe32dbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4538304254603464, guid: 7a77ea810bbc0db4992e500affe32dbf, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -9066,6 +9768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01b (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4702229198241056, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -9124,6 +9830,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1574705480282506, guid: 9e6377f4cae22eb4194f71c6e76c37b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4565743505842534, guid: 9e6377f4cae22eb4194f71c6e76c37b9, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -9182,6 +9892,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 766042417}
     m_Modifications:
+    - target: {fileID: 1783979763778466, guid: bd1a894f239d58d4dbf63f27e28096bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4105805283940168, guid: bd1a894f239d58d4dbf63f27e28096bd, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -9284,6 +9998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_tree_02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1458573784885960, guid: 6910e2407cd484a42a0c2598114751a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4202130902894980, guid: 6910e2407cd484a42a0c2598114751a0, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -9337,6 +10055,10 @@ PrefabInstance:
     - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01a (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4208458315195486, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_RootOrder
@@ -9404,6 +10126,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767446352}
     m_Modifications:
+    - target: {fileID: 1185380165875998, guid: 9d200fbd47e9c7f45ad54450ebd25b94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4099890921740684, guid: 9d200fbd47e9c7f45ad54450ebd25b94, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -9457,6 +10183,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -9520,6 +10250,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830574651}
     m_Modifications:
+    - target: {fileID: 1232766363669618, guid: 2b519101e10d4a74580d4c86ac9e03e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4998326679312090, guid: 2b519101e10d4a74580d4c86ac9e03e6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -9573,6 +10307,10 @@ PrefabInstance:
     - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4631977158232566, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_RootOrder
@@ -9635,6 +10373,10 @@ PrefabInstance:
     - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_path_01b (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4947743726954784, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_RootOrder
@@ -9706,6 +10448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1076262714343606, guid: 68cbfa1438162b243ac02fb9e3e30581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4802134562677756, guid: 68cbfa1438162b243ac02fb9e3e30581, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -9768,6 +10514,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1838849056880800, guid: 08b7d3dcb8d6b9247b1800cd79905e16, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4632176470643508, guid: 08b7d3dcb8d6b9247b1800cd79905e16, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -9817,6 +10567,10 @@ PrefabInstance:
     - target: {fileID: 1458573784885960, guid: 6910e2407cd484a42a0c2598114751a0, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_tree_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458573784885960, guid: 6910e2407cd484a42a0c2598114751a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4202130902894980, guid: 6910e2407cd484a42a0c2598114751a0, type: 3}
       propertyPath: m_RootOrder
@@ -9876,6 +10630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01b (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4702229198241056, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -9934,6 +10692,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1895291820950270, guid: 645e0ccb96eef934aa12bd4c02a4bd66, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4032784818553696, guid: 645e0ccb96eef934aa12bd4c02a4bd66, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10036,6 +10798,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 58473980}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0c323bbbfaf9c9445bb7f6a55160629b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0c323bbbfaf9c9445bb7f6a55160629b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10162,12 +10928,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291073920}
   m_LocalRotation: {x: -0, y: -0.703536, z: -0, w: 0.71065974}
-  m_LocalPosition: {x: 65.31, y: 23.51, z: 53.27}
+  m_LocalPosition: {x: 65.829, y: 23.51, z: 53.265}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -89.423, z: 0}
 --- !u!1 &1291687868
 GameObject:
@@ -10230,6 +10996,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -10297,6 +11067,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01b (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4702229198241056, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -10358,6 +11132,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -10421,6 +11199,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1668681844432972, guid: 7689b2d5def66f04eb3b0905d7b65084, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4183516897102132, guid: 7689b2d5def66f04eb3b0905d7b65084, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -10474,6 +11256,10 @@ PrefabInstance:
     - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01a (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4607489187838822, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_RootOrder
@@ -10541,6 +11327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4631977158232566, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -10594,6 +11384,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -10693,6 +11487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_02 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4631977158232566, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_RootOrder
       value: 65
@@ -10746,6 +11544,10 @@ PrefabInstance:
     - target: {fileID: 1185380165875998, guid: 9d200fbd47e9c7f45ad54450ebd25b94, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_mountain_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185380165875998, guid: 9d200fbd47e9c7f45ad54450ebd25b94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4099890921740684, guid: 9d200fbd47e9c7f45ad54450ebd25b94, type: 3}
       propertyPath: m_RootOrder
@@ -10809,6 +11611,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1974105250760466, guid: bbb972e8372282f4093c9484693385fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4201503581178414, guid: bbb972e8372282f4093c9484693385fd, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -10858,6 +11664,10 @@ PrefabInstance:
     - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_tree_pine_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4252784401376168, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_RootOrder
@@ -10927,6 +11737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_tree_pine_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4252784401376168, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -10984,6 +11798,10 @@ PrefabInstance:
     - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01a (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4607489187838822, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_RootOrder
@@ -11051,6 +11869,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01a (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4208458315195486, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -11101,6 +11923,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1703863884}
     m_Modifications:
+    - target: {fileID: 1290125285081394, guid: 491dc122236ad9749a046177ea69736d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4372973593729692, guid: 491dc122236ad9749a046177ea69736d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -11150,6 +11976,10 @@ PrefabInstance:
     - target: {fileID: 1553163231892768, guid: 0fd5be61d8c00de419d45d6bf745a69c, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_rock_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553163231892768, guid: 0fd5be61d8c00de419d45d6bf745a69c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4517740199119114, guid: 0fd5be61d8c00de419d45d6bf745a69c, type: 3}
       propertyPath: m_RootOrder
@@ -11221,6 +12051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01a (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4208458315195486, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -11274,6 +12108,10 @@ PrefabInstance:
     - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_path_01b (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4947743726954784, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_RootOrder
@@ -11428,7 +12266,7 @@ RectTransform:
   m_Children:
   - {fileID: 1581417414}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11442,6 +12280,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 867978180}
     m_Modifications:
+    - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4947743726954784, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -11511,6 +12353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -11576,6 +12422,10 @@ PrefabInstance:
     - target: {fileID: 1612273161005096, guid: ae9772ea62bbc724eb9b8ef81109f733, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_tree_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1612273161005096, guid: ae9772ea62bbc724eb9b8ef81109f733, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4586821900076392, guid: ae9772ea62bbc724eb9b8ef81109f733, type: 3}
       propertyPath: m_RootOrder
@@ -11643,6 +12493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -11705,6 +12559,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1206538960988716, guid: b44415eef131de742a4190453fc4d68e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4423895146491306, guid: b44415eef131de742a4190453fc4d68e, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -11767,6 +12625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01b (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4702229198241056, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -11825,6 +12687,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1205289291}
     m_Modifications:
+    - target: {fileID: 1046453777464574, guid: 1aad01ae01d836647b215e40f1f4c1a7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4276324180339636, guid: 1aad01ae01d836647b215e40f1f4c1a7, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -11886,6 +12752,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -11967,6 +12837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -12032,6 +12906,10 @@ PrefabInstance:
     - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_tree_pine_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4252784401376168, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_RootOrder
@@ -12247,6 +13125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01a (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4208458315195486, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -12300,6 +13182,10 @@ PrefabInstance:
     - target: {fileID: 1076262714343606, guid: 68cbfa1438162b243ac02fb9e3e30581, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076262714343606, guid: 68cbfa1438162b243ac02fb9e3e30581, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4802134562677756, guid: 68cbfa1438162b243ac02fb9e3e30581, type: 3}
       propertyPath: m_RootOrder
@@ -12363,6 +13249,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830574651}
     m_Modifications:
+    - target: {fileID: 1185082912798350, guid: 71442e8cd72511e4fabb72f1a2cc82dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4419083434238170, guid: 71442e8cd72511e4fabb72f1a2cc82dd, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -12416,6 +13306,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -12505,63 +13399,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 87dc0b67e5fe70f40a31e17b0c0058b4, type: 3}
---- !u!1001 &1614533136
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2474137431185339077, guid: ffc743db44dab264e99f076ddbfbc6dd, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2474137431185339077, guid: ffc743db44dab264e99f076ddbfbc6dd, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 56.493694
-      objectReference: {fileID: 0}
-    - target: {fileID: 2474137431185339077, guid: ffc743db44dab264e99f076ddbfbc6dd, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 22.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 2474137431185339077, guid: ffc743db44dab264e99f076ddbfbc6dd, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 43.168
-      objectReference: {fileID: 0}
-    - target: {fileID: 2474137431185339077, guid: ffc743db44dab264e99f076ddbfbc6dd, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.87817466
-      objectReference: {fileID: 0}
-    - target: {fileID: 2474137431185339077, guid: ffc743db44dab264e99f076ddbfbc6dd, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2474137431185339077, guid: ffc743db44dab264e99f076ddbfbc6dd, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.47834012
-      objectReference: {fileID: 0}
-    - target: {fileID: 2474137431185339077, guid: ffc743db44dab264e99f076ddbfbc6dd, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2474137431185339077, guid: ffc743db44dab264e99f076ddbfbc6dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2474137431185339077, guid: ffc743db44dab264e99f076ddbfbc6dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 57.154
-      objectReference: {fileID: 0}
-    - target: {fileID: 2474137431185339077, guid: ffc743db44dab264e99f076ddbfbc6dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3592032611480416782, guid: ffc743db44dab264e99f076ddbfbc6dd, type: 3}
-      propertyPath: m_Name
-      value: VillagerHuman Variant
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ffc743db44dab264e99f076ddbfbc6dd, type: 3}
 --- !u!1001 &1619387526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12572,6 +13409,10 @@ PrefabInstance:
     - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01a (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4607489187838822, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_RootOrder
@@ -12658,6 +13499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01b (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4702229198241056, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -12711,6 +13556,10 @@ PrefabInstance:
     - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01a (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4607489187838822, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_RootOrder
@@ -12777,6 +13626,10 @@ PrefabInstance:
     - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_tree_pine_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4252784401376168, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_RootOrder
@@ -12898,6 +13751,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2093542906}
     m_Modifications:
+    - target: {fileID: 1733909988577898, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4931211907768612, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -12956,6 +13813,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1315125114229348, guid: 4c1686a5131ac8b45bfe913f509289c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4750229036844788, guid: 4c1686a5131ac8b45bfe913f509289c0, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -13017,6 +13878,10 @@ PrefabInstance:
     - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_path_01b (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4947743726954784, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_RootOrder
@@ -13087,6 +13952,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -13211,6 +14080,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1718839437809988, guid: 5fb4dbc1b7c07b9418845eb61970d9df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4524486647388044, guid: 5fb4dbc1b7c07b9418845eb61970d9df, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -13272,6 +14145,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -13358,6 +14235,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767446352}
     m_Modifications:
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -13429,8 +14310,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.3825195, y: 0.2285919, z: 0.16130212}
-  m_Center: {x: 0.07692556, y: 1.0183, z: 0.0000033266595}
+  m_Size: {x: 0.5194106, y: 0.121773, z: 0.17465034}
+  m_Center: {x: 0.028565325, y: 1.071738, z: 0.006678012}
 --- !u!114 &1735695295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13501,6 +14382,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767446352}
     m_Modifications:
+    - target: {fileID: 1855710351377478, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4557757265253404, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -13574,6 +14459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -13640,6 +14529,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_flower_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1269754475505960, guid: 186ecc7a1f977cc4fab5658c00fa3c4d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4063210846265680, guid: 186ecc7a1f977cc4fab5658c00fa3c4d, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -13702,6 +14595,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1788225573705622, guid: 1645880bdf365054a8c29b271c30eb36, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791740479712768, guid: 1645880bdf365054a8c29b271c30eb36, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -13748,6 +14645,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1830574651}
     m_Modifications:
+    - target: {fileID: 1275909538635612, guid: 2767c12992d890f44b14f433fe854668, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4422725698349158, guid: 2767c12992d890f44b14f433fe854668, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -13913,6 +14814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01a (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4208458315195486, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -13974,6 +14879,10 @@ PrefabInstance:
     - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01a (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435283653269720, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4607489187838822, guid: 00e2e59cbc04eab4a982218df54ce70b, type: 3}
       propertyPath: m_RootOrder
@@ -14078,6 +14987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_02 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4631977158232566, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -14159,6 +15072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_path_01b (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4947743726954784, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -14220,6 +15137,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -14398,7 +15319,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1835754029
 PrefabInstance:
@@ -14407,6 +15328,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1678841851965742, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4202655646031778, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -14453,6 +15378,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 867978180}
     m_Modifications:
+    - target: {fileID: 1385124323689208, guid: e7489574cca6d4645a7019414b8288e8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4943765590059028, guid: e7489574cca6d4645a7019414b8288e8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -14463,7 +15392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4943765590059028, guid: e7489574cca6d4645a7019414b8288e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.57
+      value: 21.46
       objectReference: {fileID: 0}
     - target: {fileID: 4943765590059028, guid: e7489574cca6d4645a7019414b8288e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14522,6 +15451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_tree_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1458573784885960, guid: 6910e2407cd484a42a0c2598114751a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4202130902894980, guid: 6910e2407cd484a42a0c2598114751a0, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -14575,6 +15508,10 @@ PrefabInstance:
     - target: {fileID: 1733909988577898, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01b (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733909988577898, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4931211907768612, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
       propertyPath: m_RootOrder
@@ -14638,6 +15575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_tree_pine_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4252784401376168, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -14695,6 +15636,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -14762,6 +15707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_path_01b (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4947743726954784, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -14819,6 +15768,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -14886,6 +15839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01b (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1733909988577898, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4931211907768612, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -14952,6 +15909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01a (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839786891944690, guid: c96016c34e7be62488e588470988ef5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4208458315195486, guid: c96016c34e7be62488e588470988ef5b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -15005,6 +15966,10 @@ PrefabInstance:
     - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4631977158232566, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_RootOrder
@@ -15068,6 +16033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_tree_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1612273161005096, guid: ae9772ea62bbc724eb9b8ef81109f733, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4586821900076392, guid: ae9772ea62bbc724eb9b8ef81109f733, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -15125,6 +16094,10 @@ PrefabInstance:
     - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_wood_path_01b (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1498041528017854, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4702229198241056, guid: 0ba258545da721e488ecb71ffd143b6f, type: 3}
       propertyPath: m_RootOrder
@@ -15192,6 +16165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -15258,6 +16235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1855710351377478, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4557757265253404, guid: 5c9211eb71cff4f4996a21d92317f601, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -15319,6 +16300,10 @@ PrefabInstance:
     - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_terrain_grass_01 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069567032315564, guid: bdf8e7438a7816543998181bd3067573, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4835789832631930, guid: bdf8e7438a7816543998181bd3067573, type: 3}
       propertyPath: m_RootOrder
@@ -15386,6 +16371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_02 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4631977158232566, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_RootOrder
       value: 71
@@ -15444,6 +16433,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1205289291}
     m_Modifications:
+    - target: {fileID: 1998486184958212, guid: e85c18dfba00c9540859ea847782af5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4880192959135794, guid: e85c18dfba00c9540859ea847782af5b, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -15505,6 +16498,10 @@ PrefabInstance:
     - target: {fileID: 1733909988577898, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01b (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733909988577898, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4931211907768612, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
       propertyPath: m_RootOrder
@@ -15572,6 +16569,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_02 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4631977158232566, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -15634,6 +16635,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 956939992}
     m_Modifications:
+    - target: {fileID: 1718839437809988, guid: 5fb4dbc1b7c07b9418845eb61970d9df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4524486647388044, guid: 5fb4dbc1b7c07b9418845eb61970d9df, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -15790,6 +16795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_rock_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1553163231892768, guid: 0fd5be61d8c00de419d45d6bf745a69c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4517740199119114, guid: 0fd5be61d8c00de419d45d6bf745a69c, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -15863,6 +16872,10 @@ PrefabInstance:
     - target: {fileID: 1689892608009186, guid: 6fc2010b5899cfd488a0ddf205679e2b, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_rock_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689892608009186, guid: 6fc2010b5899cfd488a0ddf205679e2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4548539680920072, guid: 6fc2010b5899cfd488a0ddf205679e2b, type: 3}
       propertyPath: m_RootOrder
@@ -15944,6 +16957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_grass_small_01b (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1733909988577898, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4931211907768612, guid: e88b7bb02ae149940a5a0cddf34fe370, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -16006,6 +17023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_tree_pine_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4252784401376168, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -16049,6 +17070,82 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4252784401376168, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
   m_PrefabInstance: {fileID: 2066089947}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2066708426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2066708427}
+  - component: {fileID: 2066708429}
+  - component: {fileID: 2066708428}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2066708427
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066708426}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1050839960}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -183.92004, y: -97.71002}
+  m_SizeDelta: {x: 283.7707, y: 60.376007}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2066708428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066708426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.61214066, b: 0.3066038, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2066708429
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066708426}
+  m_CullTransparentMesh: 1
 --- !u!1001 &2075565520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16059,6 +17156,10 @@ PrefabInstance:
     - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_Name
       value: rpgpp_lt_hill_small_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4631977158232566, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_RootOrder
@@ -16110,6 +17211,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1767446352}
     m_Modifications:
+    - target: {fileID: 1694894201118028, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4631977158232566, guid: 6dcae7204dd466c4c862bc640ea7c02e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -16247,6 +17352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rpgpp_lt_terrain_path_01b (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1740273473050372, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4947743726954784, guid: 63ce2b31e16acab4d8a41f884c36333c, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -16311,7 +17420,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2336944694273510523, guid: 38474be726b83f74f8c818907adb1854, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2336944694273510523, guid: 38474be726b83f74f8c818907adb1854, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16319,7 +17428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2336944694273510523, guid: 38474be726b83f74f8c818907adb1854, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.93376
+      value: 21.796
       objectReference: {fileID: 0}
     - target: {fileID: 2336944694273510523, guid: 38474be726b83f74f8c818907adb1854, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16375,40 +17484,101 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8493421711632125084, guid: 38474be726b83f74f8c818907adb1854, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.127
+      value: 0.148
       objectReference: {fileID: 0}
     - target: {fileID: 8493421711632125084, guid: 38474be726b83f74f8c818907adb1854, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.146
+      value: -0.166
       objectReference: {fileID: 0}
     - target: {fileID: 8493421711632125084, guid: 38474be726b83f74f8c818907adb1854, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.071
+      value: 0.095
       objectReference: {fileID: 0}
     - target: {fileID: 8493421711632125084, guid: 38474be726b83f74f8c818907adb1854, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.4068393
+      value: 0.4138505
       objectReference: {fileID: 0}
     - target: {fileID: 8493421711632125084, guid: 38474be726b83f74f8c818907adb1854, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.42649966
+      value: 0.4272804
       objectReference: {fileID: 0}
     - target: {fileID: 8493421711632125084, guid: 38474be726b83f74f8c818907adb1854, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.06795095
+      value: -0.062418543
       objectReference: {fileID: 0}
     - target: {fileID: 8493421711632125084, guid: 38474be726b83f74f8c818907adb1854, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.80496126
+      value: -0.8014133
+      objectReference: {fileID: 0}
+    - target: {fileID: 8493421711632125084, guid: 38474be726b83f74f8c818907adb1854, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 14.692
       objectReference: {fileID: 0}
     - target: {fileID: 8493421711632125084, guid: 38474be726b83f74f8c818907adb1854, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -49.8
+      value: -49.589
       objectReference: {fileID: 0}
     - target: {fileID: 8493421711632125084, guid: 38474be726b83f74f8c818907adb1854, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -132.78
+      value: -132.192
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2874642005655541620, guid: 38474be726b83f74f8c818907adb1854, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 38474be726b83f74f8c818907adb1854, type: 3}
+--- !u!1001 &6760038267570466587
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5841471276873857936, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_Name
+      value: Snake Hip Hop Dance
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 86.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.276
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 65.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.24487008
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9695559
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 151.652
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510731173843886378, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ffc656bc0edb8524e9b508bc9542bf32, type: 3}
