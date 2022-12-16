@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44331577, g: 0.49235332, b: 0.5717749, a: 1}
+  m_IndirectSpecularColor: {r: 0.4458596, g: 0.4955932, b: 0.57435155, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -777,6 +777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d96ac7c5011c14e42b3c934e5ac04abb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _stone: {fileID: 576144911}
   dragon: {fileID: 30936702}
   menu: {fileID: 1471152810}
   menuPlayer: {fileID: 249239503}
@@ -784,10 +785,8 @@ MonoBehaviour:
   cameraPlayer: {fileID: 1291073922}
   cont: {fileID: 1077141777}
   mui_settings: {fileID: 11400000, guid: 2c2dfd425b42a4a458f4486166847538, type: 2}
-  m_maxDelay: 0
-  m_delay: 0
-  m_minDela: 0
-  Step: 0
+  Score: 0
+  Scoretext: {fileID: 666001412}
 --- !u!4 &88184054
 Transform:
   m_ObjectHideFlags: 0
@@ -9475,12 +9474,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 548a7492c0153394482b0f605b953611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stone: {fileID: 576144911}
   stone: {fileID: 0}
   anim: {fileID: 1724856147}
   m_power: 50
-  Score: 0
-  Scoretext: {fileID: 666001412}
   StartPlay: {fileID: 88184053}
 --- !u!4 &1077141778
 Transform:

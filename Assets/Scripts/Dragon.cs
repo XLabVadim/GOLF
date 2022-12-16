@@ -8,5 +8,7 @@ public class Dragon : MonoBehaviour
     private void OnCollisionEnter(Collision stoneother)
     {
         HP -= 1;
+        
+        Debug.Log(HP);
     }
 }

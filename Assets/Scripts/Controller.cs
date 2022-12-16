@@ -7,50 +7,23 @@ namespace Game
 {
     public class Controller : MonoBehaviour
     {
-        [SerializeField]
-        private StoneSpawn _stone;
+        
 
         [SerializeField]
         private Stone stone;
 
         [SerializeField]
         private Animation anim;
-        private float m_timer = 0f;
-
+        
         [SerializeField]
         private float m_power = 100f;
-        Vector3 vec = new Vector3(-10, 10, 1);
-        public int Score = 0;
-        public Text Scoretext;
 
         [SerializeField]
         private MenuUI StartPlay;
 
-        private List<GameObject> m_stones = new();
+        
 
-        void Update()
-        {
-            //Debug.Log(StartPlay.ExitMenu);
-            if (StartPlay.ExitMenu == true)
-            {
-                m_timer += Time.deltaTime;
-            }
-            if (m_timer >= StartPlay.m_delay && StartPlay.ExitMenu == true)
-            {
-                var u_stone = _stone.Spawn();
-                m_stones.Add(u_stone);
-                m_timer -= StartPlay.m_delay;
-
-                StartPlay.m_delay = StartPlay.Calc();
-                while (StartPlay.m_maxDelay > StartPlay.m_minDela)
-                {
-                    StartPlay.m_maxDelay -= StartPlay.Step;
-                    break;
-                }
-            }
-
-            Scoretext.text = Score.ToString();
-        }
+        
 
         public void Up()
         {
@@ -76,18 +49,10 @@ namespace Game
                 var body = contact.otherCollider.GetComponent<Rigidbody>();
                 body.AddForce(stick.dir * m_power, ForceMode.Impulse);
                 Physics.IgnoreCollision(contact.thisCollider, contact.otherCollider, true);
-                Score += 1;
+                StartPlay.Score += 1;
             }
         }
-        private void ClearStones()
-		{
-            //Debug.Log("gggggg");
-			foreach (GameObject u_stone in m_stones)
-			{
-				Destroy(u_stone);
-			}
-			m_stones.Clear();
-		}
+        
 
         private void Start()
         {
@@ -105,7 +70,7 @@ namespace Game
             Debug.Log("Game Over");
             StartPlay.ExitMenu = false;
             StartPlay.DownMenu();
-            ClearStones();
+            StartPlay.ClearStones();
         }
 
         private void OnDestroy()
