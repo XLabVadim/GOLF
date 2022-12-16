@@ -38,11 +38,14 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Animation.cs" />
      <Compile Include="Assets\AlignedGames\Polygonal Foliage Asset Package\Scripts\Utility\FlyCameraBehaviour.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\CollisionPlow.cs" />
      <Compile Include="Assets\Scripts\Stone.cs" />
      <Compile Include="Assets\Scripts\StoneSpawn.cs" />
      <Compile Include="Assets\Scripts\Controller.cs" />
+     <Compile Include="Assets\Scripts\GameSettings.cs" />
      <Compile Include="Assets\Scripts\GameEven.cs" />
+     <Compile Include="Assets\Scripts\Dragon.cs" />
      <Compile Include="Assets\Scripts\MenuUI.cs" />
      <Compile Include="Assets\Scripts\FreeCamera.cs" />
      <None Include="Assets\AlignedGames\Polygonal Foliage Asset Package\Shaders\Cloud.shader" />
