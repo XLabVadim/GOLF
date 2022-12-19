@@ -2,13 +2,49 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace Game
+{
 public class Dragon : MonoBehaviour
 {
-    public int HP = 100;
+    [SerializeField]
+    public int _maxHealth = 100;
+    public int _currentHealth = 100;
+
+    public delegate void MyDelegate(float a);
+    public event MyDelegate HealthChanged;
+
+    private void Start()
+    {
+        _currentHealth = _maxHealth;
+    }
+
     private void OnCollisionEnter(Collision stoneother)
     {
-        HP -= 1;
+        ChangedHealth(-10);
         
-        Debug.Log(HP);
+        Debug.Log(_currentHealth);
+    }
+
+    private void ChangedHealth(int value)
+    {
+        _currentHealth += value;
+        if (_currentHealth <= 0)
+        {
+            Death();
+        }
+        else
+        {
+            float _currentHealthAsPercantage = (float)_currentHealth / _maxHealth;
+            HealthChanged?.Invoke(_currentHealthAsPercantage);
+        } 
+    }
+
+    private void Death()
+    {
+        HealthChanged?.Invoke(0);
+        Debug.Log("Kill");
+
     }
 }
+}
+

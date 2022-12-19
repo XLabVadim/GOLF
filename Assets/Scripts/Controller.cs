@@ -21,9 +21,6 @@ namespace Game
         [SerializeField]
         private MenuUI StartPlay;
 
-        
-
-        
 
         public void Up()
         {

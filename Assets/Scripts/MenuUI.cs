@@ -10,7 +10,9 @@ namespace Game
         [SerializeField]
         private StoneSpawn _stone;
         [SerializeField]
-        private Dragon dragon;
+        private HealthBar Health;
+        [SerializeField]
+        private Dragon drag;
         public GameObject menu;
         public GameObject menuPlayer;
         public bool ExitMenu = false;
@@ -49,7 +51,8 @@ namespace Game
             Step = mui_settings.stepDealay;
             m_maxDelay = mui_settings.maxDelay;
             Score = 0;
-            dragon.HP = 100;
+            Health._HealthBarFilling.fillAmount = 100;
+            drag._currentHealth = drag._maxHealth;
             cameraMenu.enabled = !cameraMenu.enabled;
             cameraPlayer.enabled = !cameraPlayer.enabled;
             menu.SetActive(false);

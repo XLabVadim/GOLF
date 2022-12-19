@@ -289,7 +289,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8557b158c077654193e425216db6fed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 100
+  _maxHealth: 100
+  _currentHealth: 0
 --- !u!4 &30936704 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7508823081509243663, guid: 67a825888e6fd514995f9d0251ce01f3, type: 3}
@@ -908,7 +909,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _stone: {fileID: 576144911}
-  dragon: {fileID: 30936702}
+  Health: {fileID: 1614112780}
+  drag: {fileID: 30936702}
   menu: {fileID: 1471152810}
   menuPlayer: {fileID: 249239503}
   ExitMenu: 0
@@ -14178,6 +14180,7 @@ GameObject:
   - component: {fileID: 1614112777}
   - component: {fileID: 1614112779}
   - component: {fileID: 1614112778}
+  - component: {fileID: 1614112780}
   m_Layer: 0
   m_Name: fon
   m_TagString: Untagged
@@ -14244,6 +14247,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614112776}
   m_CullTransparentMesh: 1
+--- !u!114 &1614112780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614112776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 307fb198ec76e854aa1d0b38429a6c92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _HealthBarFilling: {fileID: 812698403}
+  _health: {fileID: 30936702}
 --- !u!1001 &1619387526
 PrefabInstance:
   m_ObjectHideFlags: 0
