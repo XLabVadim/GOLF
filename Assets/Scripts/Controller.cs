@@ -27,14 +27,15 @@ namespace Game
 
         public void Up()
         {
-            anim.push();
-            anim.Udar();
+            anim._Push();
+            anim._Udar(); 
         }
 
         public void Down()
         {
-            anim._Push();
-            anim._Udar(); 
+            anim.push();
+            anim.Udar();
+            
             anim.Idle();
         }
 
