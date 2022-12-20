@@ -1491,6 +1491,7 @@ GameObject:
   - component: {fileID: 829028956938331112}
   - component: {fileID: 829028956938331115}
   - component: {fileID: 829028956938331117}
+  - component: {fileID: -8089278734283180716}
   m_Layer: 0
   m_Name: Dragon_Baked_Actions_fbx_7.4_binary 1
   m_TagString: Untagged
@@ -1564,7 +1565,21 @@ MonoBehaviour:
   drago: {fileID: 829028956938331114}
   _maxHealth: 100
   _currentHealth: 100
+  DragonAnimation: {fileID: -8089278734283180716}
   Fly: 0
+--- !u!114 &-8089278734283180716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829028956938331116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fff934cb1f19694fb380e117ba8b597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragonAnim: {fileID: 829028956938331112}
 --- !u!1 &829028956954568501
 GameObject:
   m_ObjectHideFlags: 0

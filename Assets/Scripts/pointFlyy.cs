@@ -9,7 +9,7 @@ namespace Game
         public Transform point;
         [SerializeField]
         private Dragon dragonfly;
-        private float speed = 10f;
+        private float speed = 5f;
 
         private void Update()
         {

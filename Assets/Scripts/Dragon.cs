@@ -11,6 +11,8 @@ public class Dragon : MonoBehaviour
     [SerializeField]
     public int _maxHealth = 100;
     public int _currentHealth = 100;
+    [SerializeField]
+    private AnimationDragon DragonAnimation;
     
     
     public bool Fly = false;
@@ -51,6 +53,7 @@ public class Dragon : MonoBehaviour
         HealthChanged?.Invoke(0);
         Debug.Log("Kill");
         Fly = true;
+        DragonAnimation.true_FlyAnim();
         Debug.Log(Fly);
         //Destroy(gameObject, 10f);
     }
