@@ -76,6 +76,11 @@ namespace Game
             menu.SetActive(true);
             menuPlayer.SetActive(false);
         }
+
+        public void ExitGame()
+        {
+            Application.Quit();
+        }
         void Update()
         {
             //Debug.Log(StartPlay.ExitMenu);
