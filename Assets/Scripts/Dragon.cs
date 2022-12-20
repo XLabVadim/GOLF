@@ -7,8 +7,13 @@ namespace Game
 public class Dragon : MonoBehaviour
 {
     [SerializeField]
+    private Transform drago;
+    [SerializeField]
     public int _maxHealth = 100;
     public int _currentHealth = 100;
+    
+    
+    public bool Fly = false;
 
     public delegate void MyDelegate(float a);
     public event MyDelegate HealthChanged;
@@ -18,9 +23,11 @@ public class Dragon : MonoBehaviour
         _currentHealth = _maxHealth;
     }
 
+    
+
     private void OnCollisionEnter(Collision stoneother)
     {
-        ChangedHealth(-10);
+        ChangedHealth(-100);
         
         Debug.Log(_currentHealth);
     }
@@ -43,7 +50,9 @@ public class Dragon : MonoBehaviour
     {
         HealthChanged?.Invoke(0);
         Debug.Log("Kill");
-
+        Fly = true;
+        Debug.Log(Fly);
+        //Destroy(gameObject, 10f);
     }
 }
 }

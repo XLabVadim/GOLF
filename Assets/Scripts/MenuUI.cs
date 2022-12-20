@@ -20,6 +20,8 @@ namespace Game
         [SerializeField]
         Camera cameraPlayer;
         [SerializeField]
+        public SpawnDragon _DragonSpawnPoint;
+        [SerializeField]
         Controller cont;
         [SerializeField]
         private GameSettings mui_settings;
@@ -37,6 +39,7 @@ namespace Game
             menuPlayer.SetActive(false);
             cameraMenu = GetComponent<Camera>();
             cameraMenu = Camera.main;
+            
         }
 
         public float Calc()
@@ -51,6 +54,7 @@ namespace Game
             Step = mui_settings.stepDealay;
             m_maxDelay = mui_settings.maxDelay;
             Score = 0;
+            drag.Fly = false;
             Health._HealthBarFilling.fillAmount = 100;
             drag._currentHealth = drag._maxHealth;
             cameraMenu.enabled = !cameraMenu.enabled;
@@ -61,8 +65,12 @@ namespace Game
         }
         public void DownMenu()
         {
+            Debug.Log(drag._currentHealth);
+            if (drag._currentHealth <= 0)
+            {
+                _DragonSpawnPoint.PointSpawnDragon();
+            }
             cont.StartGame();
-
             cameraMenu.enabled = !cameraMenu.enabled;
             cameraPlayer.enabled = !cameraPlayer.enabled;
             menu.SetActive(true);
