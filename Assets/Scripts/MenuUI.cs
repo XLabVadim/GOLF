@@ -66,10 +66,11 @@ namespace Game
         public void DownMenu()
         {
             Debug.Log(drag._currentHealth);
-            if (drag._currentHealth <= 0)
+            /*if (drag._currentHealth <= 0)
             {
                 _DragonSpawnPoint.PointSpawnDragon();
-            }
+            }*/
+            drag.Fly = false;
             cont.StartGame();
             cameraMenu.enabled = !cameraMenu.enabled;
             cameraPlayer.enabled = !cameraPlayer.enabled;
