@@ -29,7 +29,7 @@ public class Dragon : MonoBehaviour
 
     private void OnCollisionEnter(Collision stoneother)
     {
-        ChangedHealth(-100);
+        ChangedHealth(-10);
         
         Debug.Log(_currentHealth);
     }
